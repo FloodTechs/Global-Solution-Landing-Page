@@ -1,0 +1,233 @@
+/*ESTILOS GLOVAIS PARA O CORPO DA PAGINA*/
+
+body {
+  font-family: oswald;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/*ESTILOS PARA AS SESSÕES DA PAGINA*/
+.secao {
+  padding: 60px 20px;
+}
+
+/*ESTILOS PARA O CABEÇALHO*/
+.cabecalho {
+  background-color: #222222;
+  color: #fff;
+  padding: 15px 20px;
+  /*UTILIZANDO O FLEXBOX PARA ALINHAR OS ITENS  CABEÇALHO*/
+  display: flex; /*ATIVA O MODELO DE LAYOUT DO FLEXBOX PARA O CONTAINER*/
+  justify-content: space-between; /*ESPAÇAMENTO DOS INTENS NA HORIZONTAL, COLOCANDO ESPAÇO ENTRE ELES*/
+  align-items: center; /*ALINHA OS ITENS VERTICALMENTE AO CENTRO*/
+}
+
+/*CONTAINER INTERNO DO CABEÇALHO PARA LIMITAR A LARGURA DO CONTEUDO*/
+.cabecalho-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.foto-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/*ESTILOS PARA A NAVEGAÇÃO*/
+.navegacao {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navegacao li {
+  margin-left: 10px;
+}
+
+.navegacao a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  color: rgb(0, 130, 181);
+}
+
+.banner {
+  max-width: 100%;
+}
+
+/*ESTILOS PARA A SEÇÃO "SOBRE MIM"*/
+
+
+
+.sobre-container {
+  max-width: 1200px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px; /*ADICIONA ESPAÇO DE 30 PIXELS ENTRE OS ITENS*/
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid #1dcd9f;
+}
+
+.texto-sobre h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/*ESTILOS PARA SEÇÃO HABILIDADES*/
+.habilidades {
+  background-color: #169976;
+}
+
+.habilidades-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lista-habilidades {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /*permite que os itens quebrem para a próxima linha*/
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.lista-habilidades li {
+  background-color: #e8e8e8;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/*ESTILOS PARA A SEÇÃO PROJETOS*/
+
+
+.projetos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  /*UTILIZANDO O CSS GRID PARA CRIAR UM LAYOUT DE GRADE PARA OS PROJETOS*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /*CRIA COLUNAS QUE SE AJUSTAM AUTOMATICAMENTE COM UMA LARGURA MINIMA DE 300PX E MAXIMA 1 FRAÇÃO DO ESPAÇO DISPONIVEL*/
+  gap: 20px;
+}
+
+.separacao {
+  background-color: #169976;
+  color: #169976;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  max-height: 15px;
+  max-width: 100%;
+}
+
+.projeto-titulo {
+  text-align: center;
+}
+
+.projeto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.projeto-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.projeto h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.projeto a {
+  display: inline-block; /*PERMITE DEFINIR PADDING E MARGEM*/
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.projeto a:hover {
+  background-color: #555;
+}
+
+/*ESTILOS DA SEÇÃO DE  "CONTATO*/
+.contato {
+  background-color: #212121;
+}
+
+.contato-container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formulario-contato {
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column; /*ORGANIZA OS ELEMENTOS HORIZONTALMENTE*/
+  gap: 10px;
+}
+
+.formulario-contato input [type="text"],
+.formulario-contato input [type="email"],
+.formulario-contato textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.formulario-contato textarea {
+  resize: vertical; /*PERMITE REDIMENCIONAR A ALTURA DO TEXTAREA*/
+  min-height: 100px;
+}
+
+.formulario-contato button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.rodape {
+  background-color: #169976;
+  color: #212121;
+  font-family: oswald;
+  
+}

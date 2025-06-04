@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho-container">
+        <img
+          src="./src/assets/image/imagem-logo.png"
+          alt="Logo FloodTech"
+          class="foto-logo"
+        />
+        <nav class="navegacao">
+          <ul>
+            <li><a href="#sobre">Situação</a></li>
+            <li><a href="#habilidades">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+      <img id="image" alt="Imagens de Rio Grande do Sul pós-enchentes" />
+    </section>
+
+    <section id="sobre" class="secao sobre">
+      <div class="sobre-container">
+        <div class="texto-sobre">
+          <h2>Situação Atual</h2>
+          <p>
+            À um tempo atrás, o Brasil teve notícia das grandes enchentes que
+            destruíram lares e outros estabelecimentos no Rio Grande do Sul, e
+            até hoje, os cidadãos de RS passam por mais enchentes, perdendo cada
+            vez mais.
+          </p>
+          <p>
+            Minha jornada no mundo do desenvolvimento começou com o interesse em
+            transformar ideias em realidade através do código. Acredito que a
+            colaboração e a comunicação eficaz são chaves para o sucesso de
+            qualquer projeto.
+          </p>
+        </div>
+        <img
+          src="./src/assets/image/imagem-situa.jpg"
+          alt="Corpo de Bombeiros trabalhou no resgate e ajuda a moradores de Rio Pardinho"
+          class="foto-perfil"
+        />
+      </div>
+    </section>
+
+    <section id="habilidades" class="secao habilidades">
+      <div class="habilidades-container">
+        <h2>Tecnologias utilizadas</h2>
+        <ul class="lista-habilidades">
+          <li>Python</li>
+          <li>Arduino</li>
+          <li>Front-End</li>
+          <li>Back-End</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="secao projetos">
+      <div class="projeto-titulo">
+        <h2>Projetos</h2>
+      </div>
+      <div class="projetos-container">
+        <div class="projeto">
+          <img src="projeto1.jpg" alt="Projeto 1" />
+          <h3>Projeto Web 1</h3>
+          <p>Descrição breve do Projeto Web 1.</p>
+          <a href="#">Ver Projeto</a>
+        </div>
+        <div class="projeto projeto-destaque">
+          <img src="projeto3.jpg" alt="Projeto Destaque" />
+          <h3>Projeto Destaque</h3>
+          <p>Descrição mais detalhada do Projeto Destaque.</p>
+          <a href="#">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="separacao" class="secao separacao">
+      <h2>-</h2>
+    </section>
+
+    <section id="projetos" class="secao projetos">
+      <div class="projeto-titulo">
+        <h2>Caridades confiadas</h2>
+      </div>
+      <div class="projetos-container">
+        <div class="projeto">
+          <h3>Projeto Web 1</h3>
+          <img src="projeto1.jpg" alt="Projeto 1" />
+          <p>Descrição breve do Projeto Web 1.</p>
+          <a href="#">Site da caridade</a>
+        </div>
+        <div class="projeto">
+          <h3>Aplicativo Mobile</h3>
+          <img src="projeto2.jpg" alt="Projeto 2" />
+          <p>Descrição breve do Aplicativo Mobile.</p>
+          <a href="#">Site da caridade</a>
+        </div>
+        <div class="projeto projeto-destaque">
+          <h3>Projeto Destaque</h3>
+          <img src="projeto3.jpg" alt="Projeto Destaque" />
+          <p>Descrição mais detalhada do Projeto Destaque.</p>
+          <a href="#">Site da caridade</a>
+        </div>
+        <div class="projeto">
+          <h3>Landing Page</h3>
+          <img src="projeto4.jpg" alt="Projeto 4" />
+          <p>Descrição breve da Landing Page.</p>
+          <a href="./index.html">Site da caridade</a>
+        </div>
+        <div class="projeto">
+          <h3>E-commerce Simples</h3>
+          <p>Descrição breve do E-commerce Simples.</p>
+          <a href="#">Outras caridades</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao contato">
+      <div class="contato-container">
+        <h2>Contato</h2>
+        <p>
+          Você tem alguma duvida e/ou quer se juntar às nossas caridades
+          parceiras? Entre em contato conosco!
+        </p>
+        <form class="formulario-contato">
+          <input type="text" placeholder="Nome" />
+
+          <input type="email" placeholder="Email" />
+
+          <textarea placeholder="Mensagem"></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+        <div class="redes-sociais">
+          <a href="#">WhatsApp</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p>&copy; 2025 FloodTech. Todos os direitos reservados.</p>
+    </footer>
+
+    <!--CHAMANDO O JS EXTERNO  -->
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
