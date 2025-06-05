@@ -8,9 +8,11 @@ document.addEventListener('DOMContentLoaded',()=>{
     const listaResultado = document.getElementById('lista-resultado');
     const reiniciarBotao = document.getElementById('inicio-btn')
 
+
+    
     //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
-        "O que é uma enchente?",
+        'O que é uma enchente? \n a)',
         "Qual é uma das principais causas das enchentes nas cidades?",
         "Onde a água da chuva deveria ir para evitar enchentes?",
         "Qual atitude ajuda a prevenir enchentes?",
