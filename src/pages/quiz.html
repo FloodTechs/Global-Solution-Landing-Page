@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho-container">
+        <img
+          src="../assets/image/imagem-logo.png"
+          alt="Logo FloodTech"
+          class="foto-logo"
+        />
+        <nav class="navegacao">
+          <ul>
+            <li><a href="../../index.html">Situação</a></li>
+            <li><a href="../../index.html">Tecnologias</a></li>
+            <li><a href="#../../index.html">Projetos</a></li>
+            <li><a href="../../index.html">Caridades</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="container-quiz">
+      <div class="quiz">
+        <h1>Aprenda Progamação</h1>
+        <section id="container-perguntas">
+          <h2 id="pergunta"></h2>
+          <div id="container-respostas">
+            <input
+              type="text"
+              id="resposta"
+              placeholder="Digite sua Resposta"
+            />
+          </div>
+          <button id="proximo">Próxima Pergunta</button>
+          <p id="message"></p>
+        </section>
+        <section id="container-resultado" class="hidden">
+          <h2>Resultado do Quiz</h2>
+          <ul id="lista-resultado"></ul>
+          <button id="inicio-btn">Reiniciar</button>
+        </section>
+      </div>
+    </main>
+
+    <section id="contato" class="secao contato">
+      <div class="contato-container">
+        <h2>Contato</h2>
+        <p>
+          Você tem alguma duvida e/ou quer se juntar às nossas caridades
+          parceiras? Entre em contato conosco!
+        </p>
+        <form class="formulario-contato">
+          <input type="text" placeholder="Nome" />
+
+          <input type="email" placeholder="Email" />
+
+          <textarea placeholder="Mensagem"></textarea>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+        <div class="redes-sociais">
+          <a href="#">WhatsApp</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p>&copy; 2025 FloodTech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/quiz.js"></script>
+  </body>
+</html>
