@@ -247,3 +247,10 @@ body {
   font-family: oswald;
   
 }
+
+.quiz {
+  background-color: #222222;
+  border: 5px solid #169976;
+  border-left: 0;
+  border-right: 0;
+}
