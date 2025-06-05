@@ -10,10 +10,16 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
-        "Qual linguagem de programação você utiliza ",
-        "Descreva essa linguagem",
-        "Em que ano surgiu a Linguagem utilizada",
-        "Você se considera um prograamador senior",
+        "O que é uma enchente?",
+        "Qual é uma das principais causas das enchentes nas cidades?",
+        "Onde a água da chuva deveria ir para evitar enchentes?",
+        "Qual atitude ajuda a prevenir enchentes?",
+        "O que pode acontecer se alguém construir uma casa em área de risco de enchente?",
+        "Qual órgão normalmente avisa sobre risco de enchentes?",
+        "Por que o lixo entope os bueiros?",
+        "Durante uma enchente, é seguro andar pela água?",
+        "Qual destes é um sinal de que uma enchente pode acontecer?",
+        "O que fazer em caso de enchente?",
     ]
     //DECLARANDOS AS VARIAVEIS
     let perguntas = 0;
